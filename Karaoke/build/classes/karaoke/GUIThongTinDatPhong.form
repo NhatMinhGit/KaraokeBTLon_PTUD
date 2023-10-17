@@ -20,108 +20,111 @@
     </Component>
     <Menu class="javax.swing.JMenuBar" name="mnuQuanLiThongTinDatPhong">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu1">
+        <Menu class="javax.swing.JMenu" name="mnHeThong">
           <Properties>
             <Property name="text" type="java.lang.String" value="H&#x1ec7; Th&#x1ed1;ng"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="mniTrangChuCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniTrangChu">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Trang ch&#x1ee7;"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniTroGiupCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniTroGiup">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Tr&#x1ee3; gi&#xfa;p"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniTroGiupCNTTDPActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniTroGiupActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniDangXuatCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniDangXuat">
               <Properties>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng xu&#x1ea5;t"/>
               </Properties>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu2">
+        <Menu class="javax.swing.JMenu" name="mnDanhMuc">
           <Properties>
             <Property name="text" type="java.lang.String" value="Danh M&#x1ee5;c"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="mniHoaDonCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniHoaDon">
               <Properties>
                 <Property name="text" type="java.lang.String" value="H&#xf3;a &#x111;&#x1a1;n"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniDichVuCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniDichVu">
               <Properties>
                 <Property name="text" type="java.lang.String" value="D&#x1ecb;ch v&#x1ee5;"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniDichVuCNTTDPActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniDichVuActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniKhuyenMaiCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniKhuyenMai">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Khuy&#x1ebf;n m&#xe3;i"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniKhuyenMaiCNTTDPActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniKhuyenMaiActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniKhachHangCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniKhachHang">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Kh&#xe1;ch h&#xe0;ng"/>
               </Properties>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu3">
+        <Menu class="javax.swing.JMenu" name="mnDatPhong">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t Ph&#xf2;ng"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="mniDatPhongCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniDatPhong">
               <Properties>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t ph&#xf2;ng"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniDatPhongCNTTDPActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniDatPhongActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniDatPhongChoCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniDatPhongCho">
               <Properties>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t ph&#xf2;ng ch&#x1edd;"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniDatPhongChoCNTTDPActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniDatPhongChoActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="mniThongKe">
+        <Menu class="javax.swing.JMenu" name="mnThongKe">
           <Properties>
             <Property name="text" type="java.lang.String" value="Th&#x1ed1;ng K&#xea;"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="mniThongKeDoanhThuCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniThongKeDoanhThu">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Th&#x1ed1;ng k&#xea; doanh thu"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniThongKeDoanhThuActionPerformed"/>
+              </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mniThongKeDoanhThuTheoKhachHangCNTTDP">
+            <MenuItem class="javax.swing.JMenuItem" name="mniThongKeDoanhThuTheoKhachHang">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Th&#x1ed1;ng k&#xea; doanh thu theo kh&#xe1;ch h&#xe0;ng"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniThongKeDoanhThuTheoKhachHangCNTTDPActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mniThongKeDoanhThuTheoKhachHangActionPerformed"/>
               </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="mniThanhToan">
+        <Menu class="javax.swing.JMenu" name="mnThanhToan">
           <Properties>
             <Property name="text" type="java.lang.String" value="Thanh to&#xe1;n"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -169,7 +172,7 @@
                   <Component id="pnlChucNangThongTinDatPhong" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <Component id="pnlDanhSachDatPhong" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -186,7 +189,7 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="pnlChucNangThongTinDatPhong" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="pnlDanhSachDatPhong" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
           </Group>
@@ -354,18 +357,18 @@
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Component id="btnDatPhongNgayCNTTDP" max="32767" attributes="0"/>
+                      <Component id="btnDatPhongNgay" max="32767" attributes="0"/>
                       <Group type="102" attributes="0">
                           <Component id="lblTimPhongCNTTDP" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="txtTimPhongCNTTDP" min="-2" pref="100" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="btnNhanPhongCho" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnTimKiem" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="btnNhanPhongChoCNTTDP" max="32767" attributes="0"/>
-                      <Component id="btnHuyPhongChoCNTTDP" max="32767" attributes="0"/>
-                      <Component id="btnDichVuCNTTDP" max="32767" attributes="0"/>
-                      <Component id="btnDatPhongChoCNTTDP" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnNhanPhongCho" max="32767" attributes="0"/>
+                      <Component id="btnHuyPhongCho" max="32767" attributes="0"/>
+                      <Component id="btnDichVu" max="32767" attributes="0"/>
+                      <Component id="btnDatPhongCho" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
@@ -375,20 +378,20 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="btnNhanPhongCho" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnTimKiem" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="txtTimPhongCNTTDP" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
                       <Component id="lblTimPhongCNTTDP" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="btnNhanPhongChoCNTTDP" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnNhanPhongCho" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnDatPhongChoCNTTDP" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnDatPhongCho" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnDatPhongNgayCNTTDP" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnDatPhongNgay" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnHuyPhongChoCNTTDP" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnHuyPhongCho" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="btnDichVuCNTTDP" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnDichVu" min="-2" pref="45" max="-2" attributes="0"/>
                   <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -408,7 +411,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTimPhongCNTTDPActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnNhanPhongChoCNTTDP">
+        <Component class="javax.swing.JButton" name="btnNhanPhongCho">
           <Properties>
             <Property name="text" type="java.lang.String" value="Nh&#x1ead;n ph&#xf2;ng ch&#x1edd;"/>
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
@@ -421,51 +424,51 @@
             <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
           </AccessibilityProperties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNhanPhongChoCNTTDPActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNhanPhongChoActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnDatPhongNgayCNTTDP">
+        <Component class="javax.swing.JButton" name="btnDatPhongNgay">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t ph&#xf2;ng ngay"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDatPhongNgayCNTTDPActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDatPhongNgayActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnNhanPhongCho">
+        <Component class="javax.swing.JButton" name="btnTimKiem">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icon/icons8-search-24.png"/>
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnDatPhongChoCNTTDP">
+        <Component class="javax.swing.JButton" name="btnDatPhongCho">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t ph&#xf2;ng ch&#x1edd;"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDatPhongChoCNTTDPActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDatPhongChoActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnHuyPhongChoCNTTDP">
+        <Component class="javax.swing.JButton" name="btnHuyPhongCho">
           <Properties>
             <Property name="text" type="java.lang.String" value="Hu&#x1ef7; ph&#xf2;ng ch&#x1edd;"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHuyPhongChoCNTTDPActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHuyPhongChoActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnDichVuCNTTDP">
+        <Component class="javax.swing.JButton" name="btnDichVu">
           <Properties>
             <Property name="text" type="java.lang.String" value="D&#x1ecb;ch v&#x1ee5;"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDichVuCNTTDPActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDichVuActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
     </Container>
-    <Container class="javax.swing.JPanel" name="jPanel2">
+    <Container class="javax.swing.JPanel" name="pnlDanhSachDatPhong">
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
