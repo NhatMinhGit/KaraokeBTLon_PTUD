@@ -26,33 +26,35 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        pnlTraCuuDoanhThu = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jFormattedTextField2 = new javax.swing.JFormattedTextField();
-        jFormattedTextField3 = new javax.swing.JFormattedTextField();
+        jDateChooser1 = new com.toedter.calendar.JDateChooser();
+        jDateChooser2 = new com.toedter.calendar.JDateChooser();
         jPanel2 = new javax.swing.JPanel();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
-        jMenu3 = new javax.swing.JMenu();
-        jMenuItem8 = new javax.swing.JMenuItem();
-        jMenuItem9 = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
-        jMenuItem10 = new javax.swing.JMenuItem();
-        jMenuItem11 = new javax.swing.JMenuItem();
+        mnuTongQuat = new javax.swing.JMenuBar();
+        mnuHeThong = new javax.swing.JMenu();
+        mniTrangChu = new javax.swing.JMenuItem();
+        mniNhanVien = new javax.swing.JMenuItem();
+        mniTroGiup = new javax.swing.JMenuItem();
+        mniDangXuat = new javax.swing.JMenuItem();
+        mnuDanhMuc = new javax.swing.JMenu();
+        mniHoaDon = new javax.swing.JMenuItem();
+        mniDichVu = new javax.swing.JMenuItem();
+        mniKhuyenMai = new javax.swing.JMenuItem();
+        mniPhongKaraoke = new javax.swing.JMenuItem();
+        mniKhachHang = new javax.swing.JMenuItem();
+        mnuDatPhong = new javax.swing.JMenu();
+        mniDatPhong = new javax.swing.JMenuItem();
+        mniDatPhongCho = new javax.swing.JMenuItem();
+        mnuThongKe = new javax.swing.JMenu();
+        mniThongKeDoanhThu = new javax.swing.JMenuItem();
+        mniThongKeDoanhThuKhachHang = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "TRA CỨU DOANH THU", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
+        pnlTraCuuDoanhThu.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "TRA CỨU DOANH THU", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
 
         jLabel1.setText("Từ:");
 
@@ -65,46 +67,45 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
             }
         });
 
-        jFormattedTextField2.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("MM/dd/yyyy"))));
-
-        jFormattedTextField3.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.DateFormatter(new java.text.SimpleDateFormat("MM/dd/yyyy"))));
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout pnlTraCuuDoanhThuLayout = new javax.swing.GroupLayout(pnlTraCuuDoanhThu);
+        pnlTraCuuDoanhThu.setLayout(pnlTraCuuDoanhThuLayout);
+        pnlTraCuuDoanhThuLayout.setHorizontalGroup(
+            pnlTraCuuDoanhThuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
+                .addGroup(pnlTraCuuDoanhThuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlTraCuuDoanhThuLayout.createSequentialGroup()
                         .addContainerGap(95, Short.MAX_VALUE)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
+                        .addGroup(pnlTraCuuDoanhThuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
                                 .addGap(17, 17, 17)
                                 .addComponent(jLabel2)
                                 .addGap(18, 18, 18)
-                                .addComponent(jFormattedTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
                                 .addGap(22, 22, 22)
                                 .addComponent(jLabel1)
                                 .addGap(18, 18, 18)
-                                .addComponent(jFormattedTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        pnlTraCuuDoanhThuLayout.setVerticalGroup(
+            pnlTraCuuDoanhThuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
+                .addGap(13, 13, 13)
+                .addGroup(pnlTraCuuDoanhThuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel1)
-                    .addComponent(jFormattedTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jFormattedTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(24, 24, 24)
+                    .addComponent(jDateChooser1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(pnlTraCuuDoanhThuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
+                        .addGap(18, 24, Short.MAX_VALUE)
+                        .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(pnlTraCuuDoanhThuLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(27, 27, 27)
                 .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(26, 26, 26))
         );
@@ -120,81 +121,107 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
             .addGap(0, 688, Short.MAX_VALUE)
         );
 
-        jMenu1.setText("Hệ Thống");
+        mnuHeThong.setText("Hệ Thống");
 
-        jMenuItem1.setText("Trang chủ");
-        jMenu1.add(jMenuItem1);
+        mniTrangChu.setText("Trang chủ");
+        mnuHeThong.add(mniTrangChu);
 
-        jMenuItem2.setText("Trợ giúp");
-        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+        mniNhanVien.setText("Nhân viên");
+        mniNhanVien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem2ActionPerformed(evt);
+                mniNhanVienActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem2);
+        mnuHeThong.add(mniNhanVien);
 
-        jMenuItem3.setText("Đăng xuất");
-        jMenu1.add(jMenuItem3);
-
-        jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Danh Mục");
-
-        jMenuItem4.setText("Hóa đơn");
-        jMenu2.add(jMenuItem4);
-
-        jMenuItem5.setText("Dịch vụ");
-        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+        mniTroGiup.setText("Trợ giúp");
+        mniTroGiup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem5ActionPerformed(evt);
+                mniTroGiupActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem5);
+        mnuHeThong.add(mniTroGiup);
 
-        jMenuItem6.setText("Khuyến mãi");
-        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+        mniDangXuat.setText("Đăng xuất");
+        mnuHeThong.add(mniDangXuat);
+
+        mnuTongQuat.add(mnuHeThong);
+
+        mnuDanhMuc.setText("Danh Mục");
+
+        mniHoaDon.setText("Hóa đơn");
+        mniHoaDon.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem6ActionPerformed(evt);
+                mniHoaDonActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem6);
+        mnuDanhMuc.add(mniHoaDon);
 
-        jMenuItem7.setText("Khách hàng");
-        jMenu2.add(jMenuItem7);
-
-        jMenuBar1.add(jMenu2);
-
-        jMenu3.setText("Đặt Phòng");
-
-        jMenuItem8.setText("Đặt phòng");
-        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+        mniDichVu.setText("Dịch vụ");
+        mniDichVu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem8ActionPerformed(evt);
+                mniDichVuActionPerformed(evt);
             }
         });
-        jMenu3.add(jMenuItem8);
+        mnuDanhMuc.add(mniDichVu);
 
-        jMenuItem9.setText("Đặt phòng chờ");
-        jMenu3.add(jMenuItem9);
-
-        jMenuBar1.add(jMenu3);
-
-        jMenu4.setText("Thống Kê");
-
-        jMenuItem10.setText("Thống kê doanh thu");
-        jMenu4.add(jMenuItem10);
-
-        jMenuItem11.setText("Thống kê doanh thu theo khách hàng");
-        jMenuItem11.addActionListener(new java.awt.event.ActionListener() {
+        mniKhuyenMai.setText("Khuyến mãi");
+        mniKhuyenMai.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem11ActionPerformed(evt);
+                mniKhuyenMaiActionPerformed(evt);
             }
         });
-        jMenu4.add(jMenuItem11);
+        mnuDanhMuc.add(mniKhuyenMai);
 
-        jMenuBar1.add(jMenu4);
+        mniPhongKaraoke.setText("Phòng karaoke");
+        mniPhongKaraoke.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mniPhongKaraokeActionPerformed(evt);
+            }
+        });
+        mnuDanhMuc.add(mniPhongKaraoke);
 
-        setJMenuBar(jMenuBar1);
+        mniKhachHang.setText("Khách hàng");
+        mnuDanhMuc.add(mniKhachHang);
+
+        mnuTongQuat.add(mnuDanhMuc);
+
+        mnuDatPhong.setText("Đặt Phòng");
+
+        mniDatPhong.setText("Đặt phòng");
+        mniDatPhong.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mniDatPhongActionPerformed(evt);
+            }
+        });
+        mnuDatPhong.add(mniDatPhong);
+
+        mniDatPhongCho.setText("Đặt phòng chờ");
+        mnuDatPhong.add(mniDatPhongCho);
+
+        mnuTongQuat.add(mnuDatPhong);
+
+        mnuThongKe.setText("Thống Kê");
+
+        mniThongKeDoanhThu.setText("Thống kê doanh thu");
+        mniThongKeDoanhThu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mniThongKeDoanhThuActionPerformed(evt);
+            }
+        });
+        mnuThongKe.add(mniThongKeDoanhThu);
+
+        mniThongKeDoanhThuKhachHang.setText("Thống kê doanh thu theo khách hàng");
+        mniThongKeDoanhThuKhachHang.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mniThongKeDoanhThuKhachHangActionPerformed(evt);
+            }
+        });
+        mnuThongKe.add(mniThongKeDoanhThuKhachHang);
+
+        mnuTongQuat.add(mnuThongKe);
+
+        setJMenuBar(mnuTongQuat);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -202,7 +229,7 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(28, 28, 28)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(pnlTraCuuDoanhThu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(43, Short.MAX_VALUE))
@@ -213,7 +240,7 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(40, 40, 40)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(pnlTraCuuDoanhThu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(22, 22, 22)
                         .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -223,29 +250,57 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem2ActionPerformed
-
-    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem5ActionPerformed
-
-    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem6ActionPerformed
-
-    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem8ActionPerformed
-
-    private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem11ActionPerformed
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void mniTroGiupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniTroGiupActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mniTroGiupActionPerformed
+
+    private void mniDichVuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniDichVuActionPerformed
+        // TODO add your handling code here:
+        GUIThongTinDichVu ttdv = new GUIThongTinDichVu();
+        ttdv.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_mniDichVuActionPerformed
+
+    private void mniKhuyenMaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniKhuyenMaiActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mniKhuyenMaiActionPerformed
+
+    private void mniDatPhongActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniDatPhongActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mniDatPhongActionPerformed
+
+    private void mniThongKeDoanhThuKhachHangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniThongKeDoanhThuKhachHangActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mniThongKeDoanhThuKhachHangActionPerformed
+
+    private void mniNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniNhanVienActionPerformed
+        // TODO add your handling code here:
+        GUIThongTinNhanVien ttnv = new GUIThongTinNhanVien();
+        ttnv.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_mniNhanVienActionPerformed
+
+    private void mniHoaDonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniHoaDonActionPerformed
+        // TODO add your handling code here:
+        GUIThongTinHoaDon tthd = new GUIThongTinHoaDon();
+        tthd.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_mniHoaDonActionPerformed
+
+    private void mniPhongKaraokeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniPhongKaraokeActionPerformed
+        // TODO add your handling code here:
+        GUIThongTinPhong ttp = new GUIThongTinPhong();
+        ttp.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_mniPhongKaraokeActionPerformed
+
+    private void mniThongKeDoanhThuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mniThongKeDoanhThuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mniThongKeDoanhThuActionPerformed
 
     /**
      * @param args the command line arguments
@@ -284,27 +339,29 @@ public class GUIThongKeDoanhThu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JFormattedTextField jFormattedTextField2;
-    private javax.swing.JFormattedTextField jFormattedTextField3;
+    private com.toedter.calendar.JDateChooser jDateChooser1;
+    private com.toedter.calendar.JDateChooser jDateChooser2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
-    private javax.swing.JMenuItem jMenuItem11;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
-    private javax.swing.JMenuItem jMenuItem8;
-    private javax.swing.JMenuItem jMenuItem9;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JMenuItem mniDangXuat;
+    private javax.swing.JMenuItem mniDatPhong;
+    private javax.swing.JMenuItem mniDatPhongCho;
+    private javax.swing.JMenuItem mniDichVu;
+    private javax.swing.JMenuItem mniHoaDon;
+    private javax.swing.JMenuItem mniKhachHang;
+    private javax.swing.JMenuItem mniKhuyenMai;
+    private javax.swing.JMenuItem mniNhanVien;
+    private javax.swing.JMenuItem mniPhongKaraoke;
+    private javax.swing.JMenuItem mniThongKeDoanhThu;
+    private javax.swing.JMenuItem mniThongKeDoanhThuKhachHang;
+    private javax.swing.JMenuItem mniTrangChu;
+    private javax.swing.JMenuItem mniTroGiup;
+    private javax.swing.JMenu mnuDanhMuc;
+    private javax.swing.JMenu mnuDatPhong;
+    private javax.swing.JMenu mnuHeThong;
+    private javax.swing.JMenu mnuThongKe;
+    private javax.swing.JMenuBar mnuTongQuat;
+    private javax.swing.JPanel pnlTraCuuDoanhThu;
     // End of variables declaration//GEN-END:variables
 }
