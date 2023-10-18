@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Duong%20Ngo%20Manh/Desktop/KaraokeBTLon_PTUD/Karaoke/src/karaoke/GUIThongTinPhong.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinDichVu.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinHoaDon.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/entity/HoaDon.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/connectdb/ConnectDB.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinDatPhong.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinPhong.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/entity/DichVu.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinNhanVien.java</file>
         </group>
     </open-files>
 </project-private>
