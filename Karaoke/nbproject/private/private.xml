@@ -2,23 +2,20 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-<<<<<<< HEAD
         <group>
-            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinDichVu.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/dao/HoaDon_DAO.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/entity/HoaDon.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinPhong.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinNhanVien.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinDichVu.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinThanhToan.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinHoaDon.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/dao/DichVu_DAO.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongKeDoanhThu.java</file>
-            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/entity/HoaDon.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/connectdb/ConnectDB.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinDatPhong.java</file>
-            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinPhong.java</file>
             <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/entity/DichVu.java</file>
-            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinNhanVien.java</file>
+            <file>file:/C:/Users/ad/Desktop/KaraokeBTLon_PTUD/Karaoke/src/UI/GUIThongTinKhachHang.java</file>
         </group>
-=======
-        <group/>
->>>>>>> fd3204842a05719f8d8c19fed03fedbaad4cad34
     </open-files>
 </project-private>

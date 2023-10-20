@@ -171,7 +171,7 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
                 .addContainerGap(12, Short.MAX_VALUE))
         );
 
-        getContentPane().add(pnlThongTinDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(25, 54, -1, 240));
+        getContentPane().add(pnlThongTinDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, 240));
 
         pnlChucNangThongTinDatPhong.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "CHỨC NĂNG THÔNG TIN ĐẶT PHÒNG", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 14))); // NOI18N
 
@@ -236,7 +236,7 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
                         .addComponent(lblTimPhongCNTTDP)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(txtTimPhongCNTTDP, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 180, Short.MAX_VALUE)
                         .addComponent(btnTimKiem))
                     .addComponent(btnNhanPhongCho, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnHuyPhongCho, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -266,7 +266,7 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
 
         btnNhanPhongCho.getAccessibleContext().setAccessibleDescription("");
 
-        getContentPane().add(pnlChucNangThongTinDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 470, -1));
+        getContentPane().add(pnlChucNangThongTinDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 470, -1));
 
         pnlDanhSachDatPhong.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "DANH SÁCH ĐẶT PHÒNG", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 14))); // NOI18N
 
