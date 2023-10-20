@@ -14,7 +14,14 @@ public class HoaDon {
     private String maHD;
     private Date ngayLapHD;
     private Date gioTraPhong;
+    private boolean trangThaiTT;
+    public boolean isTrangThaiTT() {
+        return trangThaiTT;
+    }
 
+    public void setTrangThaiTT(boolean trangThaiTT) {
+        this.trangThaiTT = trangThaiTT;
+    }
     public String getMaHD() {
         return maHD;
     }
@@ -39,7 +46,7 @@ public class HoaDon {
         this.gioTraPhong = gioTraPhong;
     }
 
-    public HoaDon(String maHD, Date ngayLapHD, Date gioTraPhong) {
+    public HoaDon(String maHD, Date ngayLapHD, Date gioTraPhong, boolean trangThaiTT) {
         this.maHD = maHD;
         this.ngayLapHD = ngayLapHD;
         this.gioTraPhong = gioTraPhong;
