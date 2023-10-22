@@ -2,7 +2,186 @@
 
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
-    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+    <Container class="javax.swing.JDialog" name="dlgThemDichVu">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="pnlThemDichVu" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="pnlThemDichVu" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnlThemDichVu">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="pnlThongTinDatPhong" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnQuayLaiFromThemDichVu" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnXacNhanIndlgThemDichVu" min="-2" pref="111" max="-2" attributes="0"/>
+                              <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlThongTinDatPhong" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnXacNhanIndlgThemDichVu" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="btnQuayLaiFromThemDichVu" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="pnlThongTinDatPhong">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="TH&#xca;M TH&#xd4;NG TIN D&#x1eca;CH V&#x1ee4;">
+                      <Font PropertyName="font" name="Segoe UI" size="12" style="1"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="GUIThongTinDichVu_jPanel1"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblTenDichVuIndlg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblMaDichVuIndlg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblSoLuongDichVuIndlg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblGiaBanIndlg" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblTrangThaiThanhToan1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="txtSoLuongDichVuIndlg" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtMaDichVuIndlg" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtTenDichVuIndlg" alignment="0" max="32767" attributes="0"/>
+                              <Component id="txtGiaBanIndlg" alignment="0" pref="292" max="32767" attributes="0"/>
+                              <Component id="txtDonViTinhIndlg" alignment="0" pref="292" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblMaDichVuIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMaDichVuIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblTenDichVuIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtTenDichVuIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblSoLuongDichVuIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtSoLuongDichVuIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtGiaBanIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblGiaBanIndlg" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtDonViTinhIndlg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblTrangThaiThanhToan1" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="10" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblMaDichVuIndlg">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="M&#xe3; d&#x1ecb;ch v&#x1ee5;:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblTenDichVuIndlg">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="T&#xea;n d&#x1ecb;ch v&#x1ee5;:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblGiaBanIndlg">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Gi&#xe1; b&#xe1;n:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblSoLuongDichVuIndlg">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="S&#x1ed1; l&#x1b0;&#x1ee3;ng t&#x1ed3;n:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtMaDichVuIndlg">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="P001"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtSoLuongDichVuIndlg">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtTenDichVuIndlg">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtGiaBanIndlg">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtDonViTinhIndlg">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblTrangThaiThanhToan1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x110;&#x1a1;n v&#x1ecb; t&#xed;nh:"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="btnXacNhanIndlgThemDichVu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X&#xe1;c nh&#x1ead;n"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnQuayLaiFromThemDichVu">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Quay l&#x1ea1;i"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Menu class="javax.swing.JMenuBar" name="mnuTong">
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="mnHeThong">
           <Properties>
@@ -121,7 +300,7 @@
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
   <SyntheticProperties>
-    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="mnuTong"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
@@ -170,70 +349,49 @@
       </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="14" y="60" width="-1" height="-1"/>
+          <AbsoluteConstraints x="0" y="50" width="1210" height="100"/>
         </Constraint>
       </Constraints>
 
       <Layout>
         <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="103" groupAlignment="1" attributes="0">
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblTenDichVu" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblMaDichVu" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblSoLuongDichVu" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblGiaBanDichVu" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="lblDonViTinh" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="lblMaDichVu" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="txtMaDichVu" min="-2" pref="165" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="lblTenDichVu" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="txtSoLuongDichVu" alignment="0" max="32767" attributes="0"/>
-                              <Component id="txtMaDichVu" alignment="0" max="32767" attributes="0"/>
-                              <Component id="txtTenDichVu" alignment="0" max="32767" attributes="0"/>
-                              <Component id="txtGiaBanDichVu" alignment="0" pref="348" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <Component id="cmbDonViTinhDichVu" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
+                  <Component id="txtTenDichVu" min="-2" pref="195" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnTimKiemDichVu" min="-2" pref="139" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="btnLamMoiThongTinDichVu" min="-2" pref="133" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnThemThongTinDichVu" min="-2" pref="138" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="btnCapNhatThongTinDichVu1" min="-2" pref="148" max="-2" attributes="0"/>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lblMaDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtMaDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lblTenDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="txtTenDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnTimKiemDichVu" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btnLamMoiThongTinDichVu" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btnCapNhatThongTinDichVu1" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="btnThemThongTinDichVu" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblSoLuongDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtSoLuongDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblGiaBanDichVu" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
-                      <Component id="txtGiaBanDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lblDonViTinh" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
-                      <Component id="cmbDonViTinhDichVu" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -249,16 +407,6 @@
             <Property name="text" type="java.lang.String" value="T&#xea;n d&#x1ecb;ch v&#x1ee5;:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblGiaBanDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Gi&#xe1; b&#xe1;n:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="lblSoLuongDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="S&#x1ed1; l&#x1b0;&#x1ee3;ng:"/>
-          </Properties>
-        </Component>
         <Component class="javax.swing.JTextField" name="txtMaDichVu">
           <Properties>
             <Property name="text" type="java.lang.String" value="DV001"/>
@@ -268,121 +416,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Bia"/>
           </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtSoLuongDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="1"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtGiaBanDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="20.000"/>
-          </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtGiaBanDichVuActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtTenDichVuActionPerformed"/>
           </Events>
-        </Component>
-        <Component class="javax.swing.JLabel" name="lblDonViTinh">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="&#x110;&#x1a1;n v&#x1ecb; t&#xed;nh:"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JComboBox" name="cmbDonViTinhDichVu">
-          <Properties>
-            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
-              </StringArray>
-            </Property>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmbDonViTinhDichVuActionPerformed"/>
-          </Events>
-          <AuxValues>
-            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-          </AuxValues>
-        </Component>
-      </SubComponents>
-    </Container>
-    <Container class="javax.swing.JPanel" name="pnlChucNangQuanLiThongTinDichVu">
-      <Properties>
-        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="CH&#x1ee8;C N&#x102;NG QU&#x1ea2;N L&#xcd; TH&#xd4;NG TIN D&#x1eca;CH V&#x1ee4;">
-              <Font PropertyName="font" name="Segoe UI" size="14" style="1"/>
-            </TitledBorder>
-          </Border>
-        </Property>
-      </Properties>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="6" y="310" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="lblTimDichVu" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="txtTimDichVu" max="32767" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
-                  <Component id="btnThemThongTinDichVu" min="-2" pref="100" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                  <Component id="btnLamMoiThongTinDichVu" min="-2" pref="100" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="btnCapNhatThongTinDichVu" min="-2" pref="100" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace pref="19" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jButton4" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                          <Component id="txtTimDichVu" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
-                          <Component id="lblTimDichVu" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="btnLamMoiThongTinDichVu" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
-                      <Component id="btnCapNhatThongTinDichVu" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
-                      <Component id="btnThemThongTinDichVu" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-              </Group>
-          </Group>
-        </DimensionLayout>
-      </Layout>
-      <SubComponents>
-        <Component class="javax.swing.JLabel" name="lblTimDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="T&#xec;m d&#x1ecb;ch v&#x1ee5; (nh&#x1ead;p m&#xe3;)"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtTimDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="DV001"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnThemThongTinDichVu">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="btnLamMoiThongTinDichVu">
           <Properties>
@@ -392,17 +428,29 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLamMoiThongTinDichVuActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnCapNhatThongTinDichVu">
+        <Component class="javax.swing.JButton" name="btnThemThongTinDichVu">
           <Properties>
-            <Property name="text" type="java.lang.String" value="C&#x1ead;p nh&#x1ead;t"/>
+            <Property name="text" type="java.lang.String" value="Th&#xea;m d&#x1ecb;ch v&#x1ee5;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnThemThongTinDichVuActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnCapNhatThongTinDichVu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C&#x1ead;p nh&#x1ead;t d&#x1ecb;ch v&#x1ee5;"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
+        <Component class="javax.swing.JButton" name="btnTimKiemDichVu">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icon/icons8-search-24.png"/>
             </Property>
+            <Property name="text" type="java.lang.String" value="T&#xec;m ki&#x1ebf;m"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTimKiemDichVuActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -418,7 +466,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="499" y="60" width="730" height="-1"/>
+          <AbsoluteConstraints x="10" y="160" width="1210" height="480"/>
         </Constraint>
       </Constraints>
 
@@ -427,7 +475,7 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" pref="708" max="32767" attributes="0"/>
+                  <Component id="scrDanhSachDichVu" pref="1188" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -435,14 +483,14 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <Component id="jScrollPane1" min="-2" pref="551" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="137" max="32767" attributes="0"/>
+                  <Component id="scrDanhSachDichVu" min="-2" pref="445" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+        <Container class="javax.swing.JScrollPane" name="scrDanhSachDichVu">
           <AuxValues>
             <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
           </AuxValues>
