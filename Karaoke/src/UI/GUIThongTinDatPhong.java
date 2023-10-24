@@ -142,6 +142,8 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
         mniThongKeDoanhThu = new javax.swing.JMenuItem();
         mniThongKeDoanhThuTheoKhachHang = new javax.swing.JMenuItem();
 
+        dlgDatPhongNgay.setMinimumSize(new java.awt.Dimension(450, 500));
+
         pnlDatPhongNgay.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "THÔNG TIN ĐẶT PHÒNG NGAY\n", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 12))); // NOI18N
 
         lblMaPhongIndlg.setText("Mã phòng:");
@@ -826,7 +828,7 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
                         .addGroup(pnlThongTinDatPhongLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(pnlThongTinDatPhongLayout.createSequentialGroup()
                                 .addComponent(chkTrangThaiThanhToan)
-                                .addContainerGap(209, Short.MAX_VALUE))
+                                .addContainerGap(228, Short.MAX_VALUE))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlThongTinDatPhongLayout.createSequentialGroup()
                                 .addGroup(pnlThongTinDatPhongLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(txtSoNguoiToiDa, javax.swing.GroupLayout.Alignment.LEADING)
@@ -865,10 +867,10 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
                     .addComponent(lblLoaiPhong, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(radLoaiVip)
                     .addComponent(radLoaiThuong))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
-        getContentPane().add(pnlThongTinDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, 240));
+        getContentPane().add(pnlThongTinDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 470, 250));
 
         pnlChucNangThongTinDatPhong.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "CHỨC NĂNG THÔNG TIN ĐẶT PHÒNG", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 1, 14))); // NOI18N
 
@@ -954,7 +956,7 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
             .addGroup(pnlChucNangThongTinDatPhongLayout.createSequentialGroup()
                 .addGroup(pnlChucNangThongTinDatPhongLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnTimKiem)
-                    .addComponent(txtTimPhongCNTTDP, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                    .addComponent(txtTimPhongCNTTDP)
                     .addComponent(lblTimPhongCNTTDP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(11, 11, 11)
                 .addComponent(btnNhanPhongCho, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1021,9 +1023,9 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
         pnlDanhSachDatPhong.setLayout(pnlDanhSachDatPhongLayout);
         pnlDanhSachDatPhongLayout.setHorizontalGroup(
             pnlDanhSachDatPhongLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlDanhSachDatPhongLayout.createSequentialGroup()
+            .addGroup(pnlDanhSachDatPhongLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 794, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 808, Short.MAX_VALUE)
                 .addContainerGap())
         );
         pnlDanhSachDatPhongLayout.setVerticalGroup(
@@ -1034,10 +1036,8 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        getContentPane().add(pnlDanhSachDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(501, 54, -1, -1));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\ad\\Pictures\\OIP.jpg")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1330, 1020));
+        getContentPane().add(pnlDanhSachDatPhong, new org.netbeans.lib.awtextra.AbsoluteConstraints(497, 54, 830, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1340, 1020));
 
         mnHeThong.setText("Hệ Thống");
 
@@ -1088,7 +1088,7 @@ public class GUIThongTinDatPhong extends javax.swing.JFrame {
 
         mnuQuanLiThongTinDatPhong.add(mnDanhMuc);
 
-        mnDatPhong.setText("Đặt Phòng");
+        mnDatPhong.setText("Xử lý");
 
         mniDatPhong.setText("Đặt phòng");
         mniDatPhong.addActionListener(new java.awt.event.ActionListener() {

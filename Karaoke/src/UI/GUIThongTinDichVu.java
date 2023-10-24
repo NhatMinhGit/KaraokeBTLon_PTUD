@@ -212,6 +212,11 @@ public class GUIThongTinDichVu extends javax.swing.JFrame {
         });
 
         btnCapNhatThongTinDichVu1.setText("Cập nhật dịch vụ");
+        btnCapNhatThongTinDichVu1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCapNhatThongTinDichVu1ActionPerformed(evt);
+            }
+        });
 
         btnTimKiemDichVu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/icons8-search-24.png"))); // NOI18N
         btnTimKiemDichVu.setText("Tìm kiếm");
@@ -467,6 +472,10 @@ public class GUIThongTinDichVu extends javax.swing.JFrame {
         // TODO add your handling code here:
         dlgThemDichVu.setVisible(true);
     }//GEN-LAST:event_btnThemThongTinDichVuActionPerformed
+
+    private void btnCapNhatThongTinDichVu1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCapNhatThongTinDichVu1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCapNhatThongTinDichVu1ActionPerformed
 
     /**
      * @param args the command line arguments

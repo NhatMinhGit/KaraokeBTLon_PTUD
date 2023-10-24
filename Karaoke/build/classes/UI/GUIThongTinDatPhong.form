@@ -3,6 +3,11 @@
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
     <Container class="javax.swing.JDialog" name="dlgDatPhongNgay">
+      <Properties>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[450, 500]"/>
+        </Property>
+      </Properties>
 
       <Layout>
         <DimensionLayout dim="0">
@@ -1178,7 +1183,7 @@
         </Menu>
         <Menu class="javax.swing.JMenu" name="mnDatPhong">
           <Properties>
-            <Property name="text" type="java.lang.String" value="&#x110;&#x1eb7;t Ph&#xf2;ng"/>
+            <Property name="text" type="java.lang.String" value="X&#x1eed; l&#xfd;"/>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="mniDatPhong">
@@ -1278,7 +1283,7 @@
       </AuxValues>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="20" y="60" width="-1" height="240"/>
+          <AbsoluteConstraints x="20" y="60" width="470" height="250"/>
         </Constraint>
       </Constraints>
 
@@ -1299,7 +1304,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <Component id="chkTrangThaiThanhToan" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="209" max="32767" attributes="0"/>
+                                  <EmptySpace pref="228" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
@@ -1352,7 +1357,7 @@
                       <Component id="radLoaiVip" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="radLoaiThuong" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                  <EmptySpace pref="31" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -1457,7 +1462,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="btnTimKiem" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtTimPhongCNTTDP" alignment="0" pref="31" max="32767" attributes="0"/>
+                      <Component id="txtTimPhongCNTTDP" alignment="0" max="32767" attributes="0"/>
                       <Component id="lblTimPhongCNTTDP" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
@@ -1568,16 +1573,16 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="501" y="54" width="-1" height="-1"/>
+          <AbsoluteConstraints x="497" y="54" width="830" height="-1"/>
         </Constraint>
       </Constraints>
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="1" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" pref="794" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" pref="808" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -1665,14 +1670,9 @@
       </SubComponents>
     </Container>
     <Component class="javax.swing.JLabel" name="jLabel1">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\ad\Pictures\OIP.jpg"/>
-        </Property>
-      </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="0" width="1330" height="1020"/>
+          <AbsoluteConstraints x="0" y="0" width="1340" height="1020"/>
         </Constraint>
       </Constraints>
     </Component>
